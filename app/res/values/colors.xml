@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+<!--    For Orange Text-->
+    <color name="scarlet">#CF3A24</color>
+<!--    For Black Background-->
+    <color name="backgroundBlack">#050505</color>
+<!--    For white text-->
+    <color name="cararra">#F2F1EF</color>
+</resources>
+
