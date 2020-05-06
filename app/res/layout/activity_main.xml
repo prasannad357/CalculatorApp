@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/backgroundBlack"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textIn"
+        android:layout_width="170pt"
+        android:layout_height="80pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:background="@color/backgroundBlack"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/cararra"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/textOut"
+        android:layout_width="170pt"
+        android:layout_height="80pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:background="@color/backgroundBlack"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/cararra"
+        android:textSize="20pt" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0pt">
+
+            <Button
+                android:id="@+id/buAC"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="AC"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buStartBracket"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="("
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buEndBracket"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text=")"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buDiv"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="/"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/bu7"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="7"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bu8"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="8"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bu9"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="9"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buMult"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="X"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/bu4"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="4"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="5"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bu6"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="6"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buSub"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="-"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="103dp"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="1"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="2"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="3"
+                android:textColor="@color/cararra"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buAdd"
+                android:layout_width="43.5pt"
+                android:layout_height="30.5pt"
+                android:background="@color/backgroundBlack"
+                android:onClick="buIn"
+                android:text="+"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="4pt"
+        android:paddingRight="4pt">
+
+        <Button
+            android:id="@+id/buDel"
+            android:layout_width="43.5pt"
+            android:layout_height="30.5pt"
+            android:layout_weight="0"
+            android:background="@color/backgroundBlack"
+            android:onClick="buIn"
+            android:text="DEL"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/bu0"
+            android:layout_width="43.5pt"
+            android:layout_height="30.5pt"
+            android:layout_weight="0"
+            android:background="@color/backgroundBlack"
+            android:onClick="buIn"
+            android:text="0"
+            android:textColor="@color/cararra"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buDot"
+            android:layout_width="43.5pt"
+            android:layout_height="30.5pt"
+            android:layout_weight="0"
+            android:background="@color/backgroundBlack"
+            android:onClick="buIn"
+            android:text="."
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buEqual"
+            android:layout_width="43.5pt"
+            android:layout_height="30.5pt"
+            android:layout_weight="0"
+            android:background="@color/backgroundBlack"
+            android:text="="
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
